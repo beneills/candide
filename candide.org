@@ -1,25 +1,24 @@
-* Titre
 * Contexte Historique
-Résumons rapidement sa vie.
-Voltaire (né François-Marie Arouet, 1694-1778) était une philosophe français.
-Il écrivait plus de 2000 livres/brochures et plus de 20.000 lettres, mais Candide et, sans doute, son ouvrage la plus populaire.
-Aussi, il y avait plusieur affaires d'amour.
++ Résumons rapidement sa vie.
++ Voltaire (né François-Marie Arouet, 1694-1778) était une philosophe français.
++ Il écrivait plus de 2000 livres/brochures et plus de 20.000 lettres, mais Candide et, sans doute, son ouvrage la plus populaire.
++ Aussi, il y avait plusieur affaires d'amour.
 
-Son premier ouvrage, Oedipe /edip/, a été écrit quand Voltaire a été incarcéré.
++ Son premier ouvrage, Oedipe /edip/, a été écrit quand Voltaire a été incarcéré.
 
-Image: La Bastille pendant la revolution, mais Voltaire a mort une dizaine d'années avant que ça ait commencé.
++ Image: La Bastille pendant la revolution, mais Voltaire a mort une dizaine d'années avant que ça ait commencé.
 
 * Résumé de Candide
-Le problème (qui resemble problèmes dans la vie de Voltaire) est que Cunégonde est la fille de le baron.
++ Le problème (qui resemble problèmes dans la vie de Voltaire) est que Cunégonde est la fille de le baron.
 
-Inévitablement, Candide l'embrasse et il est exilé de le château.
++ Inévitablement, Candide l'embrasse et il est exilé de le château.
 
-Pangloss dit: "Remarquez bien que les nez ont été faits pour porter des lunettes; aussi avons-nous des lunettes."
-  Tr: Nose is formed for glasses, therefore we wear glasses.
++ Pangloss dit: "Remarquez bien que les nez ont été faits pour porter des lunettes; aussi avons-nous des lunettes."
++  Tr: Nose is formed for glasses, therefore we wear glasses.
 
-Voltaire se moquer de Leibniz et sa philosophie, mais il l'exagére: Leibniz n'était pas assez naïf que Pangloss.  Au contraire, beaucoup de monde le respectent.
++ Voltaire se moquer de Leibniz et sa philosophie, mais il l'exagére: Leibniz n'était pas assez naïf que Pangloss.  Au contraire, beaucoup de monde le respectent.
 
-C'est Voltaire quand il était agé; il a toujours un sourire.
++ C'est Voltaire quand il était agé; il a toujours un sourire.
 
 * Résumé 2
 6. Pendant les voyages, Pangloss est pendu (mais il s'échappe), Candide trouve Cunnégond, qui est
@@ -30,7 +29,7 @@ C'est Voltaire quand il était agé; il a toujours un sourire.
 
 13. En Europe, Candide est réuni avec Pangloss, qui a toujour la même opinion d'optimisme.
 
-Pangloss: "Je suis toujours de mon premier sentiment, car enfin je suis philosophe : il ne me convient pas de me dédire, Leibnitz ne pouvant pas avoir tort."
++ Pangloss: "Je suis toujours de mon premier sentiment, car enfin je suis philosophe : il ne me convient pas de me dédire, Leibnitz ne pouvant pas avoir tort."
 
 14. Il découvre que Cunégonde est à Constantinople, mais que elle est dévenu très moche.
 15. Ils la trouvent, et les protagonistes est marié.
@@ -51,11 +50,11 @@ vaisseau sont à leur aise ou non?"
 
 * Chart
 
-En gros, toute les points rouges est là en raison de Pangloss.
-Ch 3/4, Amour: Candide pleure la perte de Cunnégonde, et Pangloss nous raconte son affaire avec Panquette.
-Ch 5, Violence: Il y a un tremblement de terre et "trente mille habitants de tout âge et de tout sexe sont écrasés sous des ruines".
-55%, Pessimisme: CHAPITRE VINGTIÈME: Ce qui arriva sur mer à Candide et à Martin
-60%, Mer: Ils approchent des côtes de france 
-90%, Pessimisme: Pangloss décrit comment il a été pendu
++ En gros, toute les points rouges est là en raison de Pangloss.
++ Ch 3/4, Amour: Candide pleure la perte de Cunnégonde, et Pangloss nous raconte son affaire avec Panquette.
++ Ch 5, Violence: Il y a un tremblement de terre et "trente mille habitants de tout âge et de tout sexe sont écrasés sous des ruines".
++ 55%, Pessimisme: CHAPITRE VINGTIÈME: Ce qui arriva sur mer à Candide et à Martin
++ 60%, Mer: Ils approchent des côtes de france 
++ 90%, Pessimisme: Pangloss décrit comment il a été pendu
 
 
