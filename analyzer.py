@@ -11,47 +11,13 @@ import matplotlib.pyplot as plt
 # Read text from file specified by first arg
 if len(sys.argv) < 2:
     exit("Error: please supply input text file.")
+
 with open(sys.argv[1], 'r') as f:
+    print "hello"
     text = f.read()
     length = len(text)
-
-# Synonym dictionary
-word_tags = OrderedDict([('optimisme',  ['optimisme', 'espoir', 'euphorie', 'insouciance',
-                                        'rêve bleu', 'bonheur', 'joie', 'félicité',
-                                        'plaisir', 'bien-être', 'béatitude', 'bien',
-                                        'prospérité', 'chance', 'satisfaction', 'succès']),
-
-                         ('pessimisme', ['pessimisme', 'mélancolie', 'bile', 'crainte',
-                                         'défaitisme', 'inquiétude', 'dépression',
-                                         'nervosité', 'neurasthénie', 'noirceur', 'sombreur',
-                                         'malheur', 'tribulation', 'calamité', 'affliction',
-                                         'catastrophe', 'épreuve', 'accident', 'chagrin',
-                                         'malchance', 'ennui', 'infortune', 'craindre',
-                                         'redouter', 'appréhender', 'pressentir',
-                                         'avoir peur', 'plaindre', 'regretter']),
-                         ('mer',        ['mer', 'quantité', 'déluge', 'océan', 'flots', 'fourmilière', 'grande tasse']),
-                         ('violence',   ['violence', 'battr', 'ardeur',
-                                         'emportement', 'véhémence', 'fureur', 'frénésie',
-                                         'force', 'vivacité', 'brutalité', 'impétuosité',
-                                         'bouillonnement', 'frapp', 'ross', 'remu', 'écras',
-                                         'maltrait', 'éreint', 'bless', 'vaincre', 'triomph',
-                                         'corrig', 'discut', 'bataill', 'lutt', 'chican',
-                                         'sermonn', 'réprimand', 'contest', 'ferraill', 'admonest']),
-                         ('religion',   ['religion', 'dévotion', 'foi',
-                                         'croyance', 'culte', 'credo', 'principe', 'doctrine',
-                                         'dogme', 'opinion', 'adoration', 'prêtre', 'abbé',
-                                         'religieux', 'ecclésiastique', 'pontife', 'pasteur',
-                                         'druide', 'prédicant', 'aumônier', 'vicaire',
-                                         'chapelain', 'péché', 'faute', 'vice', 'crime',
-                                         'tache', 'défaut', 'attentat', 'manquement', 'stupre', 'impureté', 'imperfection']),
-                         ('amour',      ['amour', 'passion', 'attachement',
-                                         'affection', 'flirt', 'caprice', 'amourette',
-                                         'tendresse', 'coeur', 'fanatisme', 'adoration',
-                                         'amante', 'épouse', 'dame', 'légitime', 'maîtresse',
-                                         'nénette', 'concubine', 'bise', 'bisou', 'bécot',
-                                         'baise', 'baiser', 'bisette', 'blizzard', 'accolade',
-                                         'poutou'])])
-
+    a = 5
+    print a
 
 
 def indexes(needle):
@@ -86,16 +52,6 @@ def draw_chart(words, visuals, bands):
     for tag, data in occurrences.iteritems():
         plt.plot(data, [band_tag(tag, band_tags)]*len(data), visual_tag(tag, visual_tags), label=tag.capitalize())
 
-
-    plt.annotate("XX: WHAT HAPPENED AT SEA\nTO CANDIDE AND MARTIN", xy=(percent(105323), 0.999), xytext=(percent(90000), 0.97),
-                 arrowprops=dict(facecolor='black', shrink=0.05),
-                 )
-    
-    plt.annotate("Pangloss describes being hanged", xy=(percent(168459), 1.001), xytext=(percent(130000),1.02),
-                 arrowprops=dict(facecolor='black', shrink=0.05),
-                 )
-
-
     for i in range(len(chapters[:-1])):
         col = chapter_colours[i]
         plt.axvspan(chapters[i], chapters[i+1], facecolor=col, alpha=0.3)
@@ -108,6 +64,45 @@ def draw_chart(words, visuals, bands):
 
 
 # Main
+# Synonym dictionary
+word_tags = OrderedDict([('optimisme',  ['optimisme', 'espoir', 'euphorie', 'insouciance',
+                                        'rêve bleu', 'bonheur', 'joie', 'félicité',
+                                        'plaisir', 'bien-être', 'béatitude', 'bien',
+                                        'prospérité', 'chance', 'satisfaction', 'succès']),
+
+                         ('pessimisme', ['pessimisme', 'mélancolie', 'bile', 'crainte',
+                                         'défaitisme', 'inquiétude', 'dépression',
+                                         'nervosité', 'neurasthénie', 'noirceur', 'sombreur',
+                                         'malheur', 'tribulation', 'calamité', 'affliction',
+                                         'catastrophe', 'épreuve', 'accident', 'chagrin',
+                                         'malchance', 'ennui', 'infortune', 'craindre',
+                                         'redouter', 'appréhender', 'pressentir',
+                                         'avoir peur', 'plaindre', 'regretter']),
+                         ('mer',        ['mer', 'quantité', 'déluge', 'océan', 'flots',
+                                         'fourmilière', 'grande tasse']),
+                         ('violence',   ['violence', 'battr', 'ardeur',
+                                         'emportement', 'véhémence', 'fureur', 'frénésie',
+                                         'force', 'vivacité', 'brutalité', 'impétuosité',
+                                         'bouillonnement', 'frapp', 'ross', 'remu', 'écras',
+                                         'maltrait', 'éreint', 'bless', 'vaincre', 'triomph',
+                                         'corrig', 'discut', 'bataill', 'lutt', 'chican',
+                                         'sermonn', 'réprimand', 'contest', 'ferraill', 'admonest']),
+                         ('religion',   ['religion', 'dévotion', 'foi',
+                                         'croyance', 'culte', 'credo', 'principe', 'doctrine',
+                                         'dogme', 'opinion', 'adoration', 'prêtre', 'abbé',
+                                         'religieux', 'ecclésiastique', 'pontife', 'pasteur',
+                                         'druide', 'prédicant', 'aumônier', 'vicaire',
+                                         'chapelain', 'péché', 'faute', 'vice', 'crime',
+                                         'tache', 'défaut', 'attentat', 'manquement', 'stupre', 'impureté', 'imperfection']),
+                         ('amour',      ['amour', 'passion', 'attachement',
+                                         'affection', 'flirt', 'caprice', 'amourette',
+                                         'tendresse', 'coeur', 'fanatisme', 'adoration',
+                                         'amante', 'épouse', 'dame', 'légitime', 'maîtresse',
+                                         'nénette', 'concubine', 'bise', 'bisou', 'bécot',
+                                         'baise', 'baiser', 'bisette', 'blizzard', 'accolade',
+                                         'poutou'])])
+
+
 visual_tags = {'default'      : 'bo',
                'optimisme'    : 'bo',
                'pessimisme'   : 'ro',
@@ -125,8 +120,9 @@ band_tags   = {'default'      : 1.0,
                'amour'        : 0.97}
 
 
-draw_chart(word_tags, visual_tags, band_tags)
+def main():
+    draw_chart(word_tags, visual_tags, band_tags)
 
-
+main()
 
 
