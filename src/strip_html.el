@@ -12,6 +12,3 @@ donner_html?candide3\" > \"/tmp/candide.txt\"")
 (query-replace-regexp "-\\{3,\\}" "")
 (query-replace-regexp "\\<[[:upper:]']\\{2,\\}\\>" "")
 (query-replace-regexp " *, *,[, ]*" " ")
-
-
-
